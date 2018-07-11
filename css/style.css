@@ -1,0 +1,160 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: black;
+}
+
+/*containers*/
+
+.alert-container {
+    background-color: pink;
+}
+
+.callout-container {
+    height: 100vh;
+    background: url(../images/pic.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.quotes-container {
+    background-color: #f2f2f2;
+}
+
+.features-container {
+    background-color: #f2f2f2;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    color: #fff;
+    font-weight: bold;
+    text-shadow: #000 0px 0px 10px;
+    margin-bottom: 0px;
+}
+
+.jumbotron .lead {
+    color: #fff;
+    text-shadow: #000 0px 0px 5px;
+    margin: 25px 0px;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: transparent;
+    margin-bottom: 0;
+    border-color: transparent;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+    color: white;
+}
+
+.navbar .navbar-brand:hover {
+    color: white;
+}
+
+.navbar-default .navbar-nav a {
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: white;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+}
+
+
+
+
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #fff;
+}
+
+.jumbotron mark {
+    background-color: #fff;
+    text-shadow: 0px 0px;
+    border-radius: 10px;
+}
+
+.btn {
+    background-color: #c31764;
+    border-color: #c31764;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 50px;
+    width: 150px;
+    border-style: groove;
+    border-width: 2px;
+}
+
+.btn:focus,
+.btn:active,
+.btn:hover,
+.btn:active:focus {
+    background-color: #c33664;
+    border-color: #c33664;
+    color: #fff;
+}
+
+.label {
+    background-color: #c31764;
+    border-color: #c31764;
+    color: #fff;
+}
+
+.alert-container .col-xs-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-wide-alert {
+    color: #33212d;
+    background-color: #92527c;
+    padding: 5px 15px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    border-radius: 0;
+}
+
+.site-wide-alert>a {
+    color: #760f3d;
+}
+
+.site-wide-alert>a:hover,
+.site-wide-alert>a:active {
+    color: #33212d;
+    text-decoration: none;
+}
+
